@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#landing{
+    height: 100vh;
+    background-image: url(../images/landing.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    height: 80%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .30);
+    backdrop-filter: blur(1px);
+     box-shadow: 130px 120px 150px black, 
+                -130px -10px 60px #000;
+     border-radius: 25px;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+}
+
+.content{
+    position: relative;
+    left: 10%;
+    color: white;
+}
+.explore{
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    
+
+}
+small{
+    position: absolute;
+    top:25%;
+    left:20%;
+    color: green;
+    cursor: pointer;
+    
+}
+h4{
+    font-size: 46px;
+}
+.sHeading{
+     font-size: 23px; 
+   
+}
+
+#move{
+    position: absolute;
+    color: white;
+    animation: move 1s linear infinite;
+    top: -4%;
+    left: 100%;
+
+}
+
+/* @keyframes move{
+    from {transform: translateX(0)}
+    to{transform: translateX(20px)}
+} */
+@keyframes move{
+    from{transform: translateX(6px);}
+    to{transform: translateX(50px);}
+
+}
