@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* body {
-  background-image: url("../images/map.jpg");
-} */
+body {
+  background-color: #d8d2cb !important;
+}
+
+
+
 .card {
   margin: 20px;
 }
@@ -16,8 +19,8 @@
   object-fit: cover;
 }
 
-.clickable{
-  box-shadow: 4px 4px 6px 7px rgb(215, 215, 215);
+.clickable {
+  box-shadow: 4px 4px 6px 7px rgb(132, 131, 136);
 }
 
 .clickable:hover {
@@ -37,3 +40,4 @@
   color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
