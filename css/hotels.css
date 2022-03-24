@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    background-image: url(../images/hotel.jpeg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    animation: slide 10s infinite;
+    
+
+}
+
+@keyframes slide{
+
+    0%{
+        background-image: url(../images/hotel1.jpeg);
+
+    }
+    20.33%{
+        background-image: url(../images/hotel1.jpeg);
+    }
+
+    40.33%{
+        background-image: url(../images/hotel.jpeg);
+    }
+
+    50.33%{
+        background-image: url(../images/hotel.jpeg);
+
+    }
+
+    60.33%{
+        background-image: url(../images/hotel2.jpeg);
+    }
+
+    80.33%{
+        background-image: url(../images/hotel2.jpeg);
+
+    }
+
+    100%{
+        background-image: url(../images/hotel3.jpeg);
+
+    }
+}
+
+.hotelContent{
+    position: relative;
+    left: 10%;
+}
+
+.hotelContent h1{
+    color: gold;
+    font-size: 64px;
+}
+
+.hotelContent p{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    outline: none;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+#hotels{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} 
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.book{
+   
+    background-color: green;
+    text-align: center;
+
+
+}
+.book:hover{
+    background-color: black !important;
+    color: white !important;
+    width: 60%;
+}
+.row{
+    height: 30%;
+}
+#colm{
+    height: 100%;
+}
+.innerCard{
+    border-radius: 25px;
+    border: 1px solid silver;
+}
+.cardish{
+    height: 250px
+}
+.headings{
+    position: absolute;
+    top: 5%;
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 40px; */
+    color: black;
+    background-color:yellow;
+    border-radius: 25px;
+
+}
+
+.container{
+    position: relative;
+    top: 15%;
+    
+}
+
+#hotel-cards{
+    position: relative;
+    top: 40%;
+}
+
+#form{
+    display: none;
+}
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+   
+}
