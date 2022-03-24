@@ -60,10 +60,12 @@ h4{
     position: absolute;
     color: white;
     animation: move 1s linear infinite;
-    top: -4%;
-    left: 100%;
+    top: 19%;
+    left: 20%;
+    transition: all .15s ease-in-out;
 
 }
+
 
 /* @keyframes move{
     from {transform: translateX(0)}
