@@ -1,0 +1,21 @@
+nav {
+  background-color: #1c658c;
+  padding: 20px !important;
+}
+
+.nav-item{
+  color: aliceblue !important;
+}
+.nav-item:hover{
+background-color: #398AB9;
+padding: 10px;
+}
+
+footer, footer a {
+  background-color: #1c658c;
+  color: aliceblue !important;
+}
+
+footer{
+  padding: 10px;;
+}

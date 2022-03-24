@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #D8D2CB !important;
+}
+.carousel-inner img{
+  height: 90vh;
+  width: 100%;
+}
+
+.carousel-caption{
+  color: aliceblue!important;
+}
+
+.row{
+  padding: 30px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.col{
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #398AB9;
+  background-color: white;
+}
+
+.col-img{
+  width: 100%;
+}
