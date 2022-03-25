@@ -7,7 +7,6 @@ $(document).ready(function () {
   });
 
   $("#bookBtn").click(function () {
-    alert("hey");
     $("#form").hide();
     $(".confirmation").show();
   });
@@ -43,4 +42,5 @@ form.addEventListener("submit", (e) => {
   duration.innerHTML =`DURATION: ${exactday}/${month}/${year} - ${exactday1}/${month1}/${year1}`;
 noGuest.innerHTML = `NUMBER OF ${geust}`
   
+alert( `Thank you ${userName} for choosing us! Hotel succesfully bookes`)
 });

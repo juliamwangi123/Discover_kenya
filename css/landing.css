@@ -59,13 +59,17 @@ h4{
 #move{
     position: absolute;
     color: white;
-    animation: move 1s linear infinite;
     top: 19%;
     left: 20%;
     transition: all .15s ease-in-out;
+    animation: move 1s linear infinite;
+
 
 }
+#move span {
+    color: green;
 
+}
 
 /* @keyframes move{
     from {transform: translateX(0)}
@@ -75,4 +79,12 @@ h4{
     from{transform: translateX(6px);}
     to{transform: translateX(50px);}
 
+}
+
+#header{
+    opacity: 0.4;
+    font-size: 150px;
+    font-weight: 800;
+    margin-left: 10px;
+    color: green;
 }
