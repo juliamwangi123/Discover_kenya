@@ -42,5 +42,5 @@ form.addEventListener("submit", (e) => {
   duration.innerHTML =`DURATION: ${exactday}/${month}/${year} - ${exactday1}/${month1}/${year1}`;
 noGuest.innerHTML = `NUMBER OF ${geust}`
   
-alert( `Thank you ${userName} for choosing us! Hotel succesfully bookes`)
+alert( `Thank you ${userName} for choosing us! Hotel succesfully booked!`)
 });
